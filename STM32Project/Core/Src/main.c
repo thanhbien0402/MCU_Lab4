@@ -99,8 +99,8 @@ int main(void)
   SCH_Add_Task(Led1Shot, 250, 0);
   SCH_Add_Task(Led1, 0, 50);
   SCH_Add_Task(Led2, 100, 100);
-  SCH_Add_Task(Led3, 200, 150);
-  SCH_Add_Task(Led4, 300, 200);
+  SCH_Add_Task(Led3, 150, 150);
+  SCH_Add_Task(Led4, 200, 200);
   while (1)
   {
 	  SCH_Dispatch_Tasks();
