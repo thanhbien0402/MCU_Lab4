@@ -7,7 +7,7 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2022 STMicroelectronics.
+  * <h2><center>&copy; Copyright (c) 2023 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
   * This software component is licensed by ST under BSD 3-Clause license,
@@ -32,7 +32,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "scheduler.h"
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -58,18 +58,11 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define LED1SHOT_Pin GPIO_PIN_5
-#define LED1SHOT_GPIO_Port GPIOA
-#define LED1_Pin GPIO_PIN_6
-#define LED1_GPIO_Port GPIOA
-#define LED2_Pin GPIO_PIN_7
-#define LED2_GPIO_Port GPIOA
-#define LED3_Pin GPIO_PIN_8
-#define LED3_GPIO_Port GPIOA
-#define LED4_Pin GPIO_PIN_9
-#define LED4_GPIO_Port GPIOA
+#define LED_YELLOW_Pin GPIO_PIN_5
+#define LED_YELLOW_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
-
+extern ADC_HandleTypeDef hadc1;
+extern UART_HandleTypeDef huart2;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

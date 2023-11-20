@@ -1,0 +1,8 @@
+fsm.c:30:6:normal_mode	8	static
+fsm.c:36:6:clearBuffer	16	static
+fsm.c:43:6:clearCommand	16	static
+fsm.c:50:5:end_command	4	static
+fsm.c:56:5:request_command	4	static
+fsm.c:61:6:check_command_data	8	static
+fsm.c:74:6:command_parser_fsm	8	static
+fsm.c:102:6:uart_communication_fsm	8	static

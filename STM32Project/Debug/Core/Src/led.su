@@ -1,5 +1,0 @@
-led.c:12:6:Led1Shot	8	static
-led.c:15:6:Led1	8	static
-led.c:18:6:Led2	8	static
-led.c:21:6:Led3	8	static
-led.c:24:6:Led4	8	static
